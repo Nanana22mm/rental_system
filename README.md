@@ -11,36 +11,36 @@
 ## 使用方法
 ### 顧客
 1. 新規顧客の場合，まず初めに登録を行う．登録を行うためには "new" のボタンにチェックを入れ，氏名とパスワードを入力する．新規顧客でない場合は "loyal" ボタンにチェックを入れ，ID，氏名，パスワードを入力する．尚，氏名やパスワード欄に記入漏れがある場合や，登録済みの会員において入力内容に誤りがある場合はエラーメッセージを表示する．
-![login](https://github.com/Nanana22mm/myportfolio/assets/126635893/90e09018-bee5-4a3b-a6f3-de6517058d44
+![login](https://github.com/Nanana22mm/rental_system/assets/126635893/f20c7461-06da-4599-8f6e-53fa1d62cbc0
 )
 
 2. 新規会員の登録が完了すると，システムは ID を発行し，表示する．
-![new_id](https://github.com/Nanana22mm/myportfolio/assets/126635893/5c4a005a-0d58-49e2-8757-a7c4d5ff5f4f)
+![new_id](https://github.com/Nanana22mm/rental_system/assets/126635893/7ca2ca94-d49b-4f9d-95eb-bad658b9d65f)
 
 2. ログインが完了した後，"Rent" ボタンを押すと以下の画面に遷移する．
-![rent](https://github.com/Nanana22mm/myportfolio/assets/126635893/023b2203-490d-45a9-89f6-3139967779d2)
+![rent](https://github.com/Nanana22mm/rental_system/assets/126635893/318765df-4b52-4b14-a0a1-ff6a69965b94)
 
 3. ユーザは「(Furniture)」と書かれたテキストボックスに借りたい家具を記入する．その後 Register ボタンを押すと家具を借りたことが登録される．Rent ボタンを押した後，締め切り日を提示する新しい画面(calendar)が立ち上がる．返却日を確認したら右上の x ボタンを押し，画面を閉じる．
-![borrow](https://github.com/Nanana22mm/myportfolio/assets/126635893/ac7162a3-9c69-4c69-9b11-fc48fa975e78)
+![borrow](https://github.com/Nanana22mm/rental_system/assets/126635893/c193cb14-dc04-420d-b64f-3e67756fd300)
 
 ## 店員
 1. Staff ボタンを押すと，以下の画面が表示される．店員は共通のパスワードを入力し，ログインをする． パスワードが誤っていた場合はエラーメッセージが表示される．そうでなければ，店員は管理したい情報，即ち顧客情報(Cutomer)もしくは家具情報（Furniture）どちらかのボタンを選択する．
-![staff_login](https://github.com/Nanana22mm/myportfolio/assets/126635893/f4456097-4f19-4605-a832-f2aebc6d6c52)
+![staff_login](https://github.com/Nanana22mm/rental_system/assets/126635893/6735ba24-3bf8-4c3b-aa20-757a13fcb80b)
 
 2. Customer ボタンを選択すると，会員名簿と各会員が借りている家具の一覧を管理することができる．一方，Furniture ボタンを押すと，家具一覧と該当する家具を借りている会員の一覧を管理することが可能である．
-![mentenance](https://github.com/Nanana22mm/myportfolio/assets/126635893/5d86215f-f4ed-4b4c-946d-d553989fdc67)
+![maintenance](https://github.com/Nanana22mm/rental_system/assets/126635893/afe19e33-bbce-4554-9175-fb461352775a)
 
 3. 会員名簿を管理する場合，以下の画面に遷移する．会員名簿には各会員の ID，氏名，パスワードが登録されている．店員はテキストボックスに管理したい顧客の情報を入力することで，顧客情報の追加と削除を行うことができる．
-![customer_list](https://github.com/Nanana22mm/myportfolio/assets/126635893/c55ee004-e2d4-4ccb-9ec0-094932748942)
+![customer_list](https://github.com/Nanana22mm/rental_system/assets/126635893/d08bfde9-0b87-4fea-9f70-ca1115229dd2)
 
 4. 各会員が借りている家具の一覧を管理する画面は以下の通りである．会員名を指定し，"Show" ボタンを押すとその会員の借りている家具の一覧が表示される．ここでも，店員は家具の追加と削除を行うことができる．
-![customer furniture list](https://github.com/Nanana22mm/myportfolio/assets/126635893/81a09d30-c122-486a-a5e1-a0169419e931)
+![customer furniture list](https://github.com/Nanana22mm/rental_system/assets/126635893/6731986c-4e15-45a4-87e4-c69e488a2343)
 
 5. 家具の管理をする場合，以下の画面が表示される．画面には現在店が所有する家具とその個数が表示される．新たな家具を登録する場合は，一番上のテキストボックスに家具の名前と個数を入力する．
-![furnitue_list](https://github.com/Nanana22mm/myportfolio/assets/126635893/b8445310-fdb6-4e92-9c9f-c3b732832330)
+![furniture_list](https://github.com/Nanana22mm/rental_system/assets/126635893/f14e90ea-d02b-4510-99fb-2deedf24a3ff)
 
 6. ある家具を借りている会員の名簿を見る場合，以下の画面に遷移する．このページでは家具を借りている会員と，その会員が該当する家具を何個借りているのかを表示する．また，他の画面と同様に情報の追加と削除を行うことができる．
-![rent_list](https://github.com/Nanana22mm/myportfolio/assets/126635893/e648606e-e172-4aa6-8488-9b264d3e1a02)
+![rent_list](https://github.com/Nanana22mm/rental_system/assets/126635893/3d43168b-8f0e-4c2c-a455-6f378a929a41)
 
 # 工夫した点
 - カレンダーを表示して，返却期限をよりわかりやすくするようにしたこと
